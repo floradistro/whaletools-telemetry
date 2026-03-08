@@ -1,6 +1,6 @@
 {
   "name": "@neowhale/telemetry",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "description": "Error tracking, analytics, and Web Vitals for WhaleTools stores",
   "type": "module",
   "main": "dist/index.js",
@@ -21,7 +21,8 @@
   },
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "whale-logo.png"
   ],
   "scripts": {
     "build": "tsc",
@@ -40,7 +41,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/floradistro/whaletools-telemetry.git"
+    "url": "https://github.com/neowhale/telemetry.git"
+  },
+  "homepage": "https://whaletools.dev/docs",
+  "bugs": {
+    "url": "https://github.com/neowhale/telemetry/issues"
   },
   "publishConfig": {
     "access": "public"

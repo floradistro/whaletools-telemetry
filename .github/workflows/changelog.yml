@@ -1,0 +1,13 @@
+name: Changelog
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  changelog:
+    if: github.event.pull_request.merged == true
+    uses: neowhale/website/.github/workflows/changelog-entry.yml@main
+    secrets:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+

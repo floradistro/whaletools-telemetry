@@ -1,6 +1,20 @@
-# @neowhale/telemetry
+<p align="center">
+  <img src="whale-logo.png" alt="WhaleTools" width="80" />
+</p>
 
-Error tracking, analytics, Web Vitals, and AI/LLM call monitoring for WhaleTools stores. Zero dependencies. Works in the browser and on the server.
+<h1 align="center">@neowhale/telemetry</h1>
+
+<p align="center">
+  Error tracking, analytics, Web Vitals, and AI/LLM call monitoring for WhaleTools stores.
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/@neowhale/telemetry"><img src="https://img.shields.io/npm/v/@neowhale/telemetry.svg" alt="npm version" /></a>
+  <a href="https://whaletools.dev/docs"><img src="https://img.shields.io/badge/docs-whaletools.dev-blue" alt="docs" /></a>
+  <a href="https://github.com/neowhale/telemetry/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/@neowhale/telemetry" alt="license" /></a>
+</p>
+
+Zero dependencies. Works in the browser and on the server.
 
 ## Install
 
